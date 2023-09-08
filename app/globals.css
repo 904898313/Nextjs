@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../public/fonts/NotoSansTC-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* 使用自定义字体 */
+  body {
+    font-family: 'CustomFont';
+  }
