@@ -1,3 +1,13 @@
+
+
+/*
+ * @Author: yangchenguang
+ * @Description: 
+ * @Date: 2023-09-08 18:09:05
+ * @LastEditors: yangchenguang
+ * @LastEditTime: 2023-12-05 18:36:49
+ */
+
 import './globals.css'
 import type { Metadata } from 'next'
 import Link from "next/link"
@@ -24,6 +34,9 @@ export default function RootLayout({
           </li>
           <li className='mx-2'>
             <Link href="/test/me" >test/me</Link>
+          </li>
+          <li className='mx-2'>
+            <Link href="/post/123/321" >post/123/321</Link>
           </li>
         </ul>
         {children}
